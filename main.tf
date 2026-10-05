@@ -5,7 +5,7 @@ terraform {
     organization = "oceaniccloud"
 
     workspaces {
-      name = "hcp-demo"
+      name = "tf-hcp-demo"
     }
   }
 
