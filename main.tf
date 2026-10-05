@@ -24,7 +24,7 @@ variable "environment" {
 }
 
 resource "random_pet" "server_name" {
-  length = 2
+  length = 4
   prefix = var.environment
 }
 
